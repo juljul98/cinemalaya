@@ -21,20 +21,23 @@
 	<?php wp_head();?>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-
 <body <?php body_class(); ?>>
+
+
+
 <div id="page" class="site">
 	<div class="site-inner">
-		<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'twentysixteen' ); ?></a>
-
+	<div class="curl_left">FILM, ART, <br>HISTORY, FILIPINO PRIDE</div>
+	<div class="curl_right">Cinemalaya: <br>Independent Filmmaking <br>in the Philippines</div>
+<h1 class="site_heading_1"><a href="<?php echo site_url(); ?>"><?php echo get_bloginfo(); ?></a></h1>
 		<header id="masthead" class="site-header" role="banner">
 			<div class="site-header-main">
-				<div class="site-branding">
-					<?php twentysixteen_the_custom_logo(); ?>
-				</div><!-- .site-branding -->
+				
 
 				<?php if ( has_nav_menu( 'primary' ) || has_nav_menu( 'social' ) ) : ?>
-					<button id="menu-toggle" class="menu-toggle"><?php _e( 'Menu', 'twentysixteen' ); ?></button>
+					<div type="button" id="menu-toggle" class="hamburger hamburger--slider menu-toggle"> <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span><?php _e( '', 'twentysixteen' ); ?></div>
 
 					<div id="site-header-menu" class="site-header-menu">
 						<?php if ( has_nav_menu( 'primary' ) ) : ?>
@@ -61,6 +64,9 @@
 								?>
 							</nav><!-- .social-navigation -->
 						<?php endif; ?>
+						<span class="fst"></span>
+						<span class="tnd"></span>
+						<span class="trd"></span>
 					</div><!-- .site-header-menu -->
 				<?php endif; ?>
 			</div><!-- .site-header-main -->
@@ -86,4 +92,4 @@
 			<?php endif; // End header image check. ?>
 		</header><!-- .site-header -->
 
-		<div id="content" class="site-content">
+		

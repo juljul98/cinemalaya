@@ -9,7 +9,7 @@
  * @since Twenty Sixteen 1.0
  */
 ?>
-		</div><!-- .site-content -->
+
 	</div><!-- .site-inner -->
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		
@@ -18,7 +18,7 @@
 				<div class="col">
 					<div class="content_f">
 					<h3>Contact Us</h3>
-					<p>Telephone: <a href="tel:09559160218">+63 955 916 0218</a></p>
+					<p>Telephone: <a href="tel:09175208040">+09175208040</a></p>
 					<p>Address:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Makati City</p>
 					</div>
 				</div>
