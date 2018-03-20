@@ -8,7 +8,7 @@
  */
 
 get_header(); ?>
-
+<div class="site-inner">
 <div id="primary" class="content-area">
 	<main id="main" class="site-main" role="main">
 		<div class="row">
@@ -21,10 +21,8 @@ get_header(); ?>
 					// Include the single post content template.
 					get_template_part( 'template-parts/content', 'single' );
 
-					// If comments are open or we have at least one comment, load up the comment template.
-				
-
-					// End of the loop.
+	
+		
 				endwhile;
 				?>
 			</div>

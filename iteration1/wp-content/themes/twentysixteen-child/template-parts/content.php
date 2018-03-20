@@ -20,6 +20,7 @@
 	</div>
 	<div class="col-md-7">
 		<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
+		<p><?php echo get_field('article_short_description'); ?></p>
 		<p class="author"><?php echo get_field('article_author'); ?></p>
 	</div>
 	</div>

@@ -26,18 +26,20 @@
 					<div class="content_f">
 					<h3>Social Links</h3>
 					<ul class="social_links">
-						<li><a href=""><i class="fa fa-facebook-square"></i></a></li>
-						<li><a href=""><i class="fa fa-twitter-square"></i></a></li>
-						<li><a href=""><i class="fa fa-instagram"></i></a></li>
+						<li><a href="https://www.facebook.com/Through-The-Eyes-PH-682350708820720/?ref=br_rs"><i class="fa fa-facebook-square"></i></a></li>
+						<li><a href="https://twitter.com/_ThroughTheEyes"><i class="fa fa-twitter-square"></i></a></li>
+						<li><a href="https://www.instagram.com/throughtheeyesph/"><i class="fa fa-instagram"></i></a></li>
 						<li><a href=""><i class="fa fa-google-plus-square"></i></a></li>
 					</ul>
+					<p style="margin-bottom: 10px;">Stay connected</p>
 					</div>
 				</div>
 				<div class="col">
 					<div class="content_f">
 					<h3>Subscribe</h3>
 					<?php echo do_shortcode('[email-subscribers namefield=”YES” group=”Public”]');?>
-					<p>Stay connected</p>
+					<p><a href="<?php echo site_url(). '/iteration1/advertising-policy/'?>">Advertising Policy</a></p>
+					<p><a href="<?php echo site_url(). '/iteration1/subscription-policy/'?>">Subscription Policy</a></p>
 					</div>
 				</div>
 			</div>

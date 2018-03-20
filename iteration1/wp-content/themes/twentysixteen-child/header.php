@@ -12,6 +12,7 @@
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?> class="no-js">
 <head>
+	
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
@@ -26,10 +27,12 @@
 
 
 <div id="page" class="site">
-	<div class="site-inner">
-	<div class="curl_left">FILM, ART, <br>HISTORY, FILIPINO PRIDE</div>
-	<div class="curl_right">Cinemalaya: <br>Independent Filmmaking <br>in the Philippines</div>
-<h1 class="site_heading_1"><a href="<?php echo site_url(); ?>"><?php echo get_bloginfo(); ?></a></h1>
+	<div class="heading_above">
+<h1 class="site_heading_1"><a href="<?php echo site_url(); ?>"><?php echo get_bloginfo(); ?></a>
+
+	<span>Appreciating Cinemalaya Beyond Films</span></h1>
+	</div>
+
 		<header id="masthead" class="site-header" role="banner">
 			<div class="site-header-main">
 				
@@ -64,9 +67,7 @@
 								?>
 							</nav><!-- .social-navigation -->
 						<?php endif; ?>
-						<span class="fst"></span>
-						<span class="tnd"></span>
-						<span class="trd"></span>
+
 					</div><!-- .site-header-menu -->
 				<?php endif; ?>
 			</div><!-- .site-header-main -->
@@ -92,4 +93,3 @@
 			<?php endif; // End header image check. ?>
 		</header><!-- .site-header -->
 
-		
