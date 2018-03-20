@@ -44,8 +44,8 @@ a:hover p,
 	font-weight: bold;
 }
 .site_heading_1 a {
-    font-family: "bebas";
-    letter-spacing: 5px;
+    font-family: "moon";
+	text-transform: uppercase;
 	color: #000!important;
 	text-decoration: none!important;
 }
@@ -100,8 +100,8 @@ a:hover {
 	padding: 20px 0;
 }
 .home_page h1 {
-	font-family: "bebas";
-	letter-spacing: 3px;
+	font-family: "moon";
+
 	color: #000;
     text-align: center;
     padding: 0 40px 15px;
@@ -129,7 +129,7 @@ a:hover {
 }
 .like_title {
 	font-weight: bold;
-	font-size: 16px!important;
+	font-size: 18px!important;
 }
 .editor_banner {
 	margin-bottom: 30px;
@@ -160,7 +160,6 @@ display: inline-block;
   max-width: none;
 }
 .editor_pick_cont p {
-	font-family: "Gotham";
 	font-size: 16px;
 	text-transform: uppercase;
 	color: #000;
@@ -183,7 +182,13 @@ display: inline-block;
 .editor_top_picks .details {
 	margin-top: 20px;
 }
-
+.home_title,
+h2.entry-title,
+.editor_pick_cont p,
+h1.entry-title,
+.like_title {
+	font-family: "bebas";
+}
 .hamburger {
 	display: none;
 }

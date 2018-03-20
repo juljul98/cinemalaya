@@ -29,7 +29,7 @@
 			$args_1 = array(
 				'category_name' => 'article',
 				'tag' => 'side-left',
-				'order' => 'ASC'
+				'order' => 'DESC'
 				);
 			$custom_query_1 = new WP_query($args_1);
 			while ( $custom_query_1->have_posts() ): $custom_query_1->the_post(); ?>
@@ -42,8 +42,7 @@
 			<?php
 				endwhile;
 			?>
-			<div class="ads"><img src="<?php echo site_url() . '/wp-content/themes/twentysixteen-child/images/ads.png'; ?>" alt=""></div>
-			<div class="ads"><img src="<?php echo site_url() . '/wp-content/themes/twentysixteen-child/images/ads.png'; ?>" alt=""></div>
+			
 	</div>
 
 	<div class="col-md-3 pull-right">
@@ -64,7 +63,8 @@
 			<?php
 				endwhile;
 			?>
-			
+			<div class="ads"><img src="<?php echo site_url() . '/wp-content/themes/twentysixteen-child/images/ads.png'; ?>" alt=""></div>
+			<div class="ads"><img src="<?php echo site_url() . '/wp-content/themes/twentysixteen-child/images/ads.png'; ?>" alt=""></div>
 	</div>
 </div>
 </div>

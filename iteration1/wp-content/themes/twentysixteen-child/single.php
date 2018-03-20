@@ -42,7 +42,8 @@ get_header(); ?>
 									<p><?php echo get_the_post_thumbnail(); ?></p>
 								</div>
 								<div class="col-md-8">
-									<p><?php the_title(); ?></p>
+									<p class="like_title"><?php the_title(); ?></p>
+									<p><?php echo get_field('article_short_description'); ?></p>
 									<p class="author"><?php echo get_field('article_author'); ?></p>
 								</div>
 							</div>
