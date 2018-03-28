@@ -24,6 +24,12 @@
 				</div>
 				<div class="col">
 					<div class="content_f">
+						<h3>Search Article</h3>
+						<?php include('searchform.php'); ?>
+					</div>
+				</div>
+				<div class="col">
+					<div class="content_f">
 					<h3>Social Links</h3>
 					<ul class="social_links">
 						<li><a href="https://www.facebook.com/Through-The-Eyes-PH-682350708820720/?ref=br_rs"><i class="fa fa-facebook-square"></i></a></li>

@@ -14,7 +14,7 @@
 			<span class="sticky-post"><?php _e( 'Featured', 'twentysixteen' ); ?></span>
 		<?php endif; ?>
 	</header><!-- .entry-header -->
-	<div class="row">
+	<div class="row" style="margin-bottom: 20px;">
 	<div class="col-md-4">
 	<?php twentysixteen_post_thumbnail(); ?>
 	</div>
